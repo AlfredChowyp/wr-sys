@@ -1,0 +1,17 @@
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/waste-recovery-db?useUnicode=true&characterEncoding=utf8&useSSL=false
+        username: root
+        password: 123456
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 8083
+  servlet:
+    context-path: /wr-system
+
+qiniuyun:
+    ak: T5XQB_CwNFrIdhVvTClo66SdRdUhGPIt6K2iFE4Y
+    sk: kJKqehmTegWIXZrR9AkZ2agrV38zZJ1wQypEYwue
+    bucket: hsd-server
+    outline: http://img.kimen.xyz/
