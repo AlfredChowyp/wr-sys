@@ -17,6 +17,11 @@ import javax.annotation.Resource;
 @Transactional
 public class UserServiceImpl extends AbstractService<User> implements UserService {
     @Resource
-    private UserMapper tblUserMapper;
+    private UserMapper userMapper;
 
+    @Override
+    public User login(String username, String password) {
+
+        return userMapper.login(username, password);
+    }
 }

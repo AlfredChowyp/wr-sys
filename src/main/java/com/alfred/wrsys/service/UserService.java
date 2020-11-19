@@ -8,4 +8,6 @@ import com.alfred.wrsys.core.Service;
  */
 public interface UserService extends Service<User> {
 
+    User login(String username, String password);
+
 }
