@@ -1,4 +1,4 @@
-# 球类租赁系统
+# 废品管理系统
 
 ### Author：Tripppppy
 
